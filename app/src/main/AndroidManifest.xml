@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA4dtmynRWumCuPS2kAD9K2aGVQ-lDsRig" />
+            android:value="AIzaSyDlkRifo_uAlDUa0famjVX2tSRAX7zLtRc" />
 
         <activity android:name="com.example.android.shushme.MainActivity">
             <intent-filter>
@@ -23,7 +23,7 @@
             android:name="com.example.android.shushme.provider.PlaceContentProvider"
             android:authorities="com.example.android.shushme"
             android:exported="false" />
-
+        <receiver android:name=".GeofenceBroadcastReceiver" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
